@@ -1,4 +1,12 @@
 [package]
-name = "of_course"
+name = "ofCourse"
 version = "0.1.0"
+authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
+license = "MIT"
+description = "Output a string repeatedly until killed"
+readme = "README.md"
+homepage = "https://github.com/UltiRequiem/ofCourse"
+repository = "https://github.com/UltiRequiem/ofCourse"
+keywords = ["cli", "yes"]
+categories = ["command-line-utilities"]
 edition = "2018"
