@@ -1,3 +1,5 @@
+#![allow(non_snake_case)]
+
 use std::env;
 
 fn get_message() -> String {

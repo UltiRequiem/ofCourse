@@ -13,7 +13,7 @@ Yet Another [`yes`](https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c
 Just like [`yes`](<https://en.wikipedia.org/wiki/Yes_(Unix)>):
 
 ```bash
-yeah
+ofCourse
 ```
 
 > This will print "y" until the process is canceled.
@@ -21,10 +21,22 @@ yeah
 You can also pass a custom string to repeat:
 
 ```bash
-yeah custom string
+ofCourse custom string
 ```
 
 > This will print "custom string" until the process is canceled.
+
+### Installation
+
+```bash
+cargo install ofCourse
+```
+
+Or use a binary from [releases](https://github.com/UltiRequiem/ofCourse/releases/latest).
+
+### Related
+
+- [UltiRequiem/yeah](https://github.com/UltiRequiem/yeah): This but in Golang
 
 ### License
 
