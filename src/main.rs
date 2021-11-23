@@ -3,7 +3,7 @@
 
 use std::env;
 
-fn message_to_print_until_die() ->  String {
+fn get_message_to_print_until_die() -> String {
     let args: Vec<String> = env::args().skip(1).collect();
 
     if args.len() >= 1 {
@@ -14,7 +14,9 @@ fn message_to_print_until_die() ->  String {
 }
 
 fn main() {
+    let message_to_print_until_die = get_message_to_print_until_die();
+
     loop {
-        println!("{}", message_to_print_until_die());
+        println!("{}", message_to_print_until_die);
     }
 }
