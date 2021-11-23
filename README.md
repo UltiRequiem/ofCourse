@@ -6,7 +6,8 @@
 
 Output a string repeatedly until killed.
 
-Yet Another [`yes`](https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c) clone but in Rust.
+Yet Another [`yes`](https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c)
+clone but in Rust.
 
 ## Usage
 
