@@ -14,9 +14,9 @@ fn get_message_to_print_until_die() -> String {
 }
 
 fn main() {
-    let message_to_print_until_die = get_message_to_print_until_die();
+    let message = get_message_to_print_until_die();
 
     loop {
-        println!("{}", message_to_print_until_die);
+        println!("{}", message);
     }
 }
