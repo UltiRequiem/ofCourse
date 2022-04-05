@@ -1,10 +1,10 @@
 // Crate Name
 #![allow(non_snake_case)]
 
-use std::env;
+use std::env::args;
 
 fn get_message_to_print_until_die() -> String {
-    let args: Vec<String> = env::args().skip(1).collect();
+    let args: Vec<String> = args().skip(1).collect();
 
     if args.len() >= 1 {
         args.join(" ")
