@@ -1,10 +1,10 @@
 # Of Course
 
-Output a string repeatedly until killed.
+Output a string repeatedly until killed 💀
 
 Yet Another
 [`yes`](https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c) clone but
-in Rust.
+in Rust 🦀
 
 ## Installation
 
@@ -17,15 +17,13 @@ Or use a binary from
 
 ## Usage
 
-Just like [`yes`](https://en.wikipedia.org/wiki/Yes_(Unix)):
-
 ```sh
 ofCourse
 ```
 
 This will print "y" until the process is canceled.
 
-You can also pass a custom string to repeat:
+You can also pass a custom string to repeat 👇
 
 ```sh
 ofCourse custom string
