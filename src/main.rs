@@ -6,7 +6,7 @@ use std::env::args;
 fn get_message_to_print_until_die() -> String {
     let args: Vec<String> = args().skip(1).collect();
 
-    if args.len() >= 1 {
+    if !args.is_empty() {
         args.join(" ")
     } else {
         "y".to_string()
